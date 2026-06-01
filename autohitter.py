@@ -12,8 +12,8 @@ from urllib.parse import unquote
 app = Flask(__name__)
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8036253403:AAGuLvepZDGiUcOsKj9dbvEtkfGCWJy_RlA")
-TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID", "8233015284")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "7415995546:AAFGw-ri_WKkFagNju8Kd9vkoTxTvZn0TWs")
+TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID", "1707478010")
 
 AUTOHITTER_HEADERS = {
     "accept": "application/json",
